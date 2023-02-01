@@ -24,7 +24,6 @@ body {
 .box {
     display: flex;
     align-items: start;
-
     background: #FFFFFF;
     box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.15);
     max-width: 650px;
@@ -37,9 +36,6 @@ body {
 
 .box .left {
     height: 60%;
-
-
-
     margin-right: 70px;
     margin-left: 10px;
     max-width: 600px;
@@ -47,14 +43,9 @@ body {
 }
 
 .box .left h1 {
-
-    font-weight: 600;
-    line-height: 56px;
+   
+    width: 200px;
     font-size: 48px;
-    margin-bottom: 60px;
-    text-align: center;
-    color: #000000;
-    line-height: 56.25px;
 
 }
 
@@ -73,20 +64,26 @@ body {
 }
 
 .box .end {
-    width: 100vh;
-    display: block;
+    width: 500px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    
     position: relative;
     align-self: end;
-    bottom: 80px;
+    justify-content: space-between;
+    bottom: 19px;
     right: 345px;
-  
+
 }
 
 .box .end #screen {
+    display: flex;
+    align-self: center;
     border: none;
     font-size: 20px;
-    width: 40px;
-    height: 40px;
+    width: 47px;
+    height: 47px;
     background: #FFFFFF;
     border: 2px solid #DE5540;
     border-radius: 5px;
@@ -95,13 +92,24 @@ body {
     border: 2px solid #DE5540;
 }
 .box .end h2{
-    display:grid;
-    flex-wrap: wrap;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 21px;
-    letter-spacing: 0em;
-    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+    width: 140px;
 
 }
+button{
+    background-color: #DE5540;
+    border: none;
+    margin: 8px;
+    padding: 8px 16px;
+    color: #ffffff;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#line{
+color: #FFB431;
 
+}

@@ -18,20 +18,22 @@
         <div class="box">
             <div class="left">
                 <h1>Em que número<br>
-                    <span id="span">Bia</span> está<p> pensando?
+                    <span id="span">Natan</span> está<p> pensando?
                 </h1>
 
             </div>
 
             <div class="right">
 
-                <img src="Images/tela-inicial.png" alt="principal" class="img" id="img">
+                <img src="Images/inicial.png" alt="principal" class="img" id="img">
 
             </div>
-            <div class="end">
-                <input type="text" placeholder="0" id="screen">
-                <h2>Seus palpites:</h2>
+            <div class="end" id="end">
+                <input type="text" placeholder="0" id="screen" onkeyup="Começa()">
+                <p id="double">Aperte Enter para mandar o palpite</p>
 
+                <h2>Seus palpites:</h2>
+                <p id="line"></p>
             </div>
         </div>
 
